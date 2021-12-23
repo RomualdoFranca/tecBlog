@@ -1,0 +1,1 @@
+# Template básico para um blog de tecnologia

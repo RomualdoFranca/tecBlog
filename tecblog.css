@@ -1,0 +1,133 @@
+/* * {
+    background-color: rgba(255, 0, 0, .2) ;
+}
+
+* * {
+    background-color: rgba(0, 255, 0, .2);
+}
+
+* * * {
+    background-color: rgba(0, 0, 255, .2);
+}
+
+* * * * {
+    background-color: rgba(255, 0, 255, .2);
+}
+
+* * * * * {
+    background-color: rgba(0, 255, 255, .2);
+}
+
+* * * * * * {
+    background-color: rgba(255, 255, 0, .2);
+} */
+
+/* *:nth-child(n) {background-color: rgba(88, 88, 88, 0.2);} */
+
+body {
+    font-family: 'Sarpanch', sans-serif;
+    background-color: #373737;
+    color: #05e4e4de;
+
+}
+
+#menu{
+    border: 2px solid #018b8b;
+    margin-bottom: 20px;
+    background-color: #026c86a4;
+    text-align: center;
+    position: relative;
+    height: 200px;
+    
+}
+.nome {
+    font-size: 70px;
+    font-weight: bold;
+    /* border: 2px solid rgb(139, 1, 65); */
+    position: relative;
+    bottom: 20px;
+
+}
+
+#menu a {
+    /* border: 2px solid rgb(139, 1, 65); */
+    margin-bottom: 20px;
+    font-size: 25px;
+    position: relative;
+    bottom: 40px;
+    padding: 0px 30px;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:link {
+    color:#05e4e4de ;
+}
+
+a:visited {
+    color: #05e4876e;
+}
+
+a:hover {
+    /* background-color:#05e4e42f ; */
+    border: 3px solid #05e4e4de;
+    border-width: 0px 0px 3px 0px;
+}
+
+#principal {
+    /* border: 4px solid rgb(1, 139, 139); */
+    width: 1200px;
+    margin: 5px auto; /*alinhado a div ao centro*/
+
+}
+
+.col-1 {
+    /* border: 2px solid rgb(139, 1, 65); */
+    background-color: rgba(203, 207, 207, 0.144);
+    padding: 10px;
+    width: 850px;
+    float: left;
+}
+
+.post1, .post2, .post3 {
+    /* border: 2px solid rgb(221, 198, 209); */
+    float: left;
+    margin-bottom: 20px;
+}
+
+.col-2 {
+    /* border: 2px solid rgb(139, 1, 65); */
+    background-color: rgba(203, 207, 207, 0.144);
+    padding: 10px;
+    width: 300px;
+    float: right;
+}
+
+.post_recente, .categoria {
+    float: left;
+
+}
+
+.postagem_recente, h2 {
+    background-image: linear-gradient(to right,#1429297c, #283a3a7c, #cbcfcf25);
+}
+
+.categoria {
+    /* border: 2px solid rgb(139, 1, 65); */
+
+}
+
+.categoria a{
+    /* border: 2px solid rgb(139, 1, 65); */
+    width: 300px;
+    font-size: 25px;
+    display: block;
+
+}
+
+.clear {
+    clear: both;
+}
